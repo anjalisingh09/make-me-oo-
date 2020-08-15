@@ -9,7 +9,7 @@ public class DistanceAndDirectionCalculator {
 
     public static double direction(Point from, Point to) {
         Calculator cal = new Calculator();
-        double result = cal.distance(from, to);
+        double result = cal.direction(from, to);
         return result;
     }
 }
